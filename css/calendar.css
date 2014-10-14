@@ -1,0 +1,62 @@
+.time-zone {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.year{
+    font-size:18px;
+    color: #7c1fe5;
+    opacity: 0.8;
+}
+.month{
+    font-size:18px;
+    color:#7c1fe5;
+    opacity: 0.8;
+}
+.time{
+    font-size:18px;
+    opacity: 0.8;
+    color: #7c1fe5;
+}
+
+.calendar th{
+    font-size: 14px;
+    color: #2faaca;
+}
+
+.calendar td{
+    height:60px;
+    font-size:14px;
+    width: 90px;
+    color:#999;
+    cursor: pointer;
+}
+
+.calendar td.weekend{
+    color:#2faac8;
+}
+
+.calendar td.today{
+    color:#ff4444;
+    background-color: #afddc8 !important;
+}
+
+.calendar td.activity{
+    color:#ff4444;
+    background-color: #ffcccc !important;
+}
+
+.content{
+    color:#2faac8;
+    font-size:11px;
+    line-height:11px;
+}
+
+.controlBtn {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    float: right;
+}
