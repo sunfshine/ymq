@@ -10,10 +10,9 @@
     <link rel="stylesheet" type="text/css" href="../css/calendar.css" />
     <link rel="stylesheet" type="text/css" href="../css/qq.css" />
 
-    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/jquery.Sonline.js"></script>
-<!--    <script type="text/javascript" src="js/calendar.js"></script>-->
 </head>
 <body>
 <div class="container-fluid">
@@ -405,6 +404,15 @@ $(document).ready(function () {
             $('#myModal').find(".location-value").html(t.attr("loc"));
         }
     })
+
+    // Call QQ Client
+    $("body").Sonline({
+        Position : "right",
+        Top : 200,
+        Effect : true,
+        DefaultsOpen:true,
+        Qqlist:"1546864614|登博,214125662|李冲"
+    });
 });
 </script>
 
