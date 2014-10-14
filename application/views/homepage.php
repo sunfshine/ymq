@@ -5,14 +5,14 @@
     <title>ymq</title>
     <meta name="viewport" content="initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/home.css" />
-    <link rel="stylesheet" type="text/css" href="../css/calendar.css" />
-    <link rel="stylesheet" type="text/css" href="../css/qq.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/calendar.css" />
+    <link rel="stylesheet" type="text/css" href="css/qq.css" />
 
-    <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.Sonline.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.Sonline.js"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -411,7 +411,7 @@ $(document).ready(function () {
         Top : 200,
         Effect : true,
         DefaultsOpen:true,
-        Qqlist:"1546864614|登博,214125662|李冲"
+        Qqlist:"1546864614|登博,214125662|李冲,504225743|水玉"
     });
 });
 </script>
